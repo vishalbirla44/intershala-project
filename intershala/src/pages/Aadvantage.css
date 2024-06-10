@@ -1,0 +1,43 @@
+.aadvantage {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    flex-direction: column;
+}
+
+.aadvantage .ad-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.aadvantage .ad-top .top-left img {
+    width: 400px;
+    height: auto;
+
+}
+
+.aadvantage .ad-top .top-right img {
+    width: 600px;
+    height: auto;
+
+}
+
+.aadvantage .ad-bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.aadvantage .ad-bottom .bottom-left img{
+    width: 600px;
+    height: auto;
+}
+
+.aadvantage .ad-bottom .bottom-right img {
+    width: 500px;
+    height: auto;
+}

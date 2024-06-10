@@ -6,11 +6,14 @@ import zImage from '../asest/bgz.png'
 import Frame1 from '../asest/Frame1.png'
 import Frame2 from '../asest/secondphone.png'
 import Frame3 from '../asest/firstphone.png'
+import Features from './Features'
+import Aadvantage from './Aadvantage'
 
 
 
 const Home = () => {
   return (
+    <>
     <div className='container'>
       <div className='left-container'>
         <div className='left-top'>
@@ -34,9 +37,13 @@ const Home = () => {
          <img src={Frame2} className='frame2' />
          <img src={Frame3} className='frame3' />
       </div>
+      
 
 
     </div>
+    <Features/>
+    <Aadvantage/>
+    </>
   )
 }
 

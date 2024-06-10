@@ -1,0 +1,27 @@
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.features .features-left{
+ width: 50%;
+ height: 80vh;
+ background-image: url(../asest/firstbg1.png);
+ background-position: bottom left;
+ background-repeat: no-repeat;
+
+}
+.features .features-left img{
+    width: 500px;
+    height: auto;
+}
+.features .features-right{
+    width: 50%;
+    height: 80vh;
+    
+   }
+   .features .features-right img{
+    width:  600px;
+    height: auto;
+    padding-top: 30px;
+   }
