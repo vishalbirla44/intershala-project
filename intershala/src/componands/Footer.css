@@ -1,5 +1,10 @@
 .footer{
+    padding-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.footer img{
+    width: 70%;
+    height: auto;
 }
