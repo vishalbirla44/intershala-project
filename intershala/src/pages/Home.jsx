@@ -8,6 +8,7 @@ import Frame2 from '../asest/secondphone.png'
 import Frame3 from '../asest/firstphone.png'
 import Features from './Features'
 import Aadvantage from './Aadvantage'
+import Testominal from './Testominal'
 
 
 
@@ -43,6 +44,7 @@ const Home = () => {
     </div>
     <Features/>
     <Aadvantage/>
+    <Testominal/>
     </>
   )
 }

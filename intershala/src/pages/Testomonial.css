@@ -1,0 +1,22 @@
+.testomonial{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.testomonial .t-top img{
+    padding-top: 200px;
+  width: 80%;
+    height: auto;
+    
+}
+.testomonial .t-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testomonial .t-bottom img{
+    width: 80%;
+
+}
